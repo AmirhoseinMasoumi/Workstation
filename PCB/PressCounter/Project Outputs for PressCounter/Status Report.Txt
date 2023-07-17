@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [PressCounter.PcbDoc]
+   Generated File[PressCounter-RoundHoles.TXT]
+   Generated File[PressCounter-SlotHoles.TXT]
+   Generated File[PressCounter.LDP]
+   Generated File[PressCounter.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 12:33:52 PM On 11/30/2022

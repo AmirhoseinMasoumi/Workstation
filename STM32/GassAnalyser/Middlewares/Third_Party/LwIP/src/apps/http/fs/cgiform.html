@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<body>
+<title>Settings</title>
+	<p><img alt="" src="/img/Logo.png" style="height:150px; width:150px" /></p>
+
+	<p><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><span style="font-size:24px">Sensor Reader</span></span></p>
+
+	<hr />
+<h2>Settings</h2>
+
+<form action="/form.cgi">
+  <label for="ipAddr">IP address:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input size="1" type="text" id="Ip0" name="Ip0" value="192">
+  <label for="ipAddr">.</label>
+  <input size="1" type="text" id="Ip1" name="Ip1" value="168">
+  <label for="ipAddr">.</label>
+  <input size="1" type="text" id="Ip2" name="Ip2" value="1">
+  <label for="ipAddr">.</label>
+  <input size="1" type="text" id="Ip3" name="Ip3" value="92"><br><br>
+  <label for="sbMask">Subnet mask:</label>&nbsp;&nbsp;
+  <input size="1" type="text" id="Sm0" name="Sm0" value="255">
+  <label for="sbMask">.</label>
+  <input size="1" type="text" id="Sm1" name="Sm1" value="255">
+  <label for="sbMask">.</label>
+  <input size="1" type="text" id="Sm2" name="Sm2" value="255">
+  <label for="sbMask">.</label>
+  <input size="1" type="text" id="Sm3" name="Sm3" value="0"><br><br>
+  <label for="getW">Geteway:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input size="1" type="text" id="gw0" name="gw0" value="192">
+  <label for="getW">.</label>
+  <input size="1" type="text" id="gw1" name="gw1" value="168">
+  <label for="getW">.</label>
+  <input size="1" type="text" id="gw2" name="gw2" value="1">
+  <label for="getW">.</label>
+  <input size="1" type="text" id="gw3" name="gw3" value="1"><br><br>
+  <input type="submit" value="Submit">
+</form>
+<form action="/reset.cgi">
+  <input type="submit" value="Reset to default">
+</form> 
+<hr />
+<a class="button" href="index.html">Return</a></body></p>
+
+
+    <style>
+      .button {
+        display: inline-block;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #7aa8b7;
+        border-radius: 6px;
+        outline: none;
+      }
+    </style>
+</body>
+</html>

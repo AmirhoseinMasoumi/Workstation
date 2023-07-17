@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=ANALOG_2 Pin=U10-1
+Removed Pin From Net: NetName=NetR18_2 Pin=U10-2
+Removed Pin From Net: NetName=NetJ9_2 Pin=U10-3
+Removed Pin From Net: NetName=ETH_GND Pin=U10-4
+Removed Pin From Net: NetName=VDDIO Pin=U10-8
+Removed Member From Class: ClassName=Sensors Member=U10
+Added Pin To Net: NetName=NetJ9_2 Pin=U9-5
+Added Pin To Net: NetName=NetR18_2 Pin=U9-6
+Added Pin To Net: NetName=ANALOG_2 Pin=U9-7

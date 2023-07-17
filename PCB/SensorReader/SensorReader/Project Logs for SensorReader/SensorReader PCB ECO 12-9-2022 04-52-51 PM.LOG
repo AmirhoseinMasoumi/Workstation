@@ -1,0 +1,12 @@
+Change Component Footprint: Designator=J1 Old Footprint=HDRR_F_1X4 New Footprint=WF_4
+Change Component Comment : Designator=J1 Old Comment=HDRF4 New Comment=HDRWF_4
+Change component parameters: Designator = "J1" ("J1"); Footprint = "HDRR_F_1X4"; UniqueID = "\ODCYSEEV" ("\ODCYSEEV")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "HDRWF_4"; VariantName = "[No Variations]"

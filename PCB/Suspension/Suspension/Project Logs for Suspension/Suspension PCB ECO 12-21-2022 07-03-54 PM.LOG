@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=NetR2_2 Pin=R2-1
+Added Pin To Net: NetName=NetR2_1 Pin=R2-1
+Added Member To Class: ClassName=Suspension Member=Component U3 SENSOR
+Added Member To Class: ClassName=Suspension Member=Component U4 SENSOR

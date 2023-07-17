@@ -1,0 +1,39 @@
+Removed Pin From Net: NetName=+5V0 Pin=D1-2
+Removed Pin From Net: NetName=+5V0 Pin=D2-2
+Removed Pin From Net: NetName=+5V0 Pin=K1-4
+Removed Pin From Net: NetName=+5V0 Pin=K2-4
+Change Component Comment : Designator=D10 Old Comment=ZENER5V1 New Comment=ZENER5V0
+Change Component Comment : Designator=D8 Old Comment=ZENER5V6 New Comment=ZENER24V0
+Change Component Comment : Designator=D9 Old Comment=ZENER5V6 New Comment=ZENER24V0
+Change component parameters: Designator = "D8" ("D8"); Footprint = "D_SMA"; UniqueID = "\WEJIPXPE" ("\WEJIPXPE")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "Diodes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "SMAZ5V6-13-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "5.6V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1W, 2Ohm, -55~150oC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "ZENER24V0"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D9" ("D9"); Footprint = "D_SMA"; UniqueID = "\ZOKONAXZ" ("\ZOKONAXZ")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "Diodes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "SMAZ5V6-13-F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "5.6V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1W, 2Ohm, -55~150oC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "ZENER24V0"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D10" ("D10"); Footprint = "D_SOD123W"; UniqueID = "\TWRZLHQG" ("\TWRZLHQG")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "Diodes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "BZT52HC5V1WF-7"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "5.1V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1W, 4Ohm, -55~150oC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "0.25$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "ZENER5V0"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC16_1 Pin=D1-2
+Added Pin To Net: NetName=NetC16_1 Pin=D2-2
+Added Pin To Net: NetName=NetC16_1 Pin=K1-4
+Added Pin To Net: NetName=NetC16_1 Pin=K2-4
+Change Net Name : Old Net Name=NetC16_1 New Net Name=+24V0

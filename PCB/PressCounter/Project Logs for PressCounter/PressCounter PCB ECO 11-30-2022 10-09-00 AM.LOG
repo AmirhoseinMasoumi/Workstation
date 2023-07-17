@@ -1,0 +1,102 @@
+Removed Pin From Net: NetName=GND Pin=D9-2
+Removed Pin From Net: NetName=GND Pin=D10-2
+Removed Pin From Net: NetName=+Vin Pin=J1-1
+Removed Pin From Net: NetName=-Vin Pin=J1-2
+Removed Pin From Net: NetName=PWR1 Pin=Q1-1
+Removed Pin From Net: NetName=PWR2 Pin=Q2-1
+Removed Pin From Net: NetName=+3V3 Pin=R5-2
+Removed Pin From Net: NetName=+3V3 Pin=R6-2
+Removed Pin From Net: NetName=MPU_SCL Pin=U1-37
+Removed Pin From Net: NetName=MPU_SDA Pin=U1-38
+Removed Member From Class: ClassName=PressCounter Member=D9
+Removed Member From Class: ClassName=PressCounter Member=D10
+Change Component Footprint: Designator=J1 Old Footprint=HDRR_F_1X2 New Footprint=HDRR_F_1X4
+Change Component Comment : Designator=R8 Old Comment=150R New Comment=1k
+Change Component Comment : Designator=R10 Old Comment=150R New Comment=1k
+Change Component Comment : Designator=J1 Old Comment=HDRF2 New Comment=HDRF4
+Change component parameters: Designator = "J1" ("J1"); Footprint = "HDRR_F_1X2"; UniqueID = "\EUHYQZVZ" ("\EUHYQZVZ")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "HDRF4"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8" ("R8"); Footprint = "R0805"; UniqueID = "\KZWIACRU" ("\KZWIACRU")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "1k"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R10" ("R10"); Footprint = "R0805"; UniqueID = "\AURQQLNN" ("\AURQQLNN")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "1k"; VariantName = "[No Variations]"
+Added Component: Designator=J2(HDRR_F_1X4)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "HDRF4"; VariantName = "[No Variations]"
+Added Component: Designator=J3(TBG_2)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DIST#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "CONN_TB2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+3V3 Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J1-4
+Added Pin To Net: NetName=+5V0 Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-4
+Added Pin To Net: NetName=+Vin Pin=J3-1
+Added Pin To Net: NetName=-Vin Pin=J3-2
+Added Pin To Net: NetName=GND Pin=Q1-1
+Added Pin To Net: NetName=GND Pin=Q2-1
+Added Pin To Net: NetName=PWR1 Pin=R5-2
+Added Pin To Net: NetName=PWR2 Pin=R6-2
+Added Pin To Net: NetName=+3V3 Pin=R8-1
+Added Pin To Net: NetName=+3V3 Pin=R10-1
+Added Pin To Net: NetName=MPU_SCL Pin=U1-39
+Added Pin To Net: NetName=MPU_SDA Pin=U1-44
+Change Net Color : Old Net Color=Lime New Net Color=Default
+Change Net Color : Old Net Color=RGB(63, 69, 17) New Net Color=Default
+Change Net Color : Old Net Color=Yellow New Net Color=Default
+Added Pin To Net: NetName=MCU_INP1 Pin=Q1-3
+Added Pin To Net: NetName=MCU_INP1 Pin=R8-2
+Added Pin To Net: NetName=MCU_INP1 Pin=U1-9
+Added Net: Name=MCU_INP1
+Added Pin To Net: NetName=MCU_INP2 Pin=Q2-3
+Added Pin To Net: NetName=MCU_INP2 Pin=R10-2
+Added Pin To Net: NetName=MCU_INP2 Pin=U1-10
+Added Net: Name=MCU_INP2
+Added Pin To Net: NetName=SYS_CLK Pin=J1-3
+Added Pin To Net: NetName=SYS_CLK Pin=U1-38
+Added Net: Name=SYS_CLK
+Added Pin To Net: NetName=SYS_DIO Pin=J1-2
+Added Pin To Net: NetName=SYS_DIO Pin=U1-37
+Added Net: Name=SYS_DIO
+Added Pin To Net: NetName=USB_M_N Pin=J2-2
+Added Pin To Net: NetName=USB_M_N Pin=U1-33
+Added Net: Name=USB_M_N
+Added Pin To Net: NetName=USB_M_P Pin=J2-3
+Added Pin To Net: NetName=USB_M_P Pin=U1-34
+Added Net: Name=USB_M_P
+Added Differential Pair: Name=USB_M
+Added Member To Class: ClassName=PressCounter Member=Component J2 HDRF4
+Added Member To Class: ClassName=PressCounter Member=Component J3 CONN_TB2

@@ -1,0 +1,2 @@
+Change Net Color : Net Name= ETH_GND Old Net Color=Default New Net Color=Yellow
+Change Net Color : Net Name= VDDIO Old Net Color=Default New Net Color=RGB(144, 145, 0)

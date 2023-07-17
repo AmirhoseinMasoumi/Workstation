@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Monitor</title>
+<meta http-equiv="refresh" content ="1">
+</head>
+<style>
+table {
+  border: 1px solid black;
+  width: 25%;
+}
+
+th, td {
+  text-align: left;
+  border: 1px solid black;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+  padding: 15px;
+}
+</style>
+<body>
+	<p><img alt="" src="/img/Logo.png" style="height:150px; width:150px" /></p>
+
+	<p><span style="font-family:Lucida Sans Unicode,Lucida Grande,sans-serif"><span style="font-size:24px">Sensor Reader</span></span></p>
+
+	<hr />
+<h2>Monitor</h2>
+
+<table>
+  <tr>
+    <th>Sensor</th>
+    <th>Value</th>
+  </tr>
+  <tr>
+    <td>O2</td>
+    <td><!--#x--></td>
+  </tr>
+  <tr>
+    <td>CO2</td>
+    <td><!--#y--></td>
+  </tr>
+  <tr>
+    <td>CO</td>
+    <td><!--#z--></td>
+  </tr>
+  <tr>
+    <td>Temperature</td>
+    <td><!--#s--></td>
+  </tr>
+</tr>
+</table>
+
+<hr />
+<a class="button" href="index.html">Return</a></body></p>
+
+
+    <style>
+      .button {
+        display: inline-block;
+        padding: 5px 15px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #7aa8b7;
+        border-radius: 6px;
+        outline: none;
+      }
+    </style>
+
+</body>
+</html>

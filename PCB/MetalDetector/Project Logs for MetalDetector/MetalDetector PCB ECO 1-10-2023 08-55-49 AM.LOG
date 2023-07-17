@@ -1,0 +1,65 @@
+Removed Pin From Net: NetName=GND Pin=J5-1
+Removed Pin From Net: NetName=+5V0 Pin=J5-2
+Removed Pin From Net: NetName=LCD_D7 Pin=J5-3
+Removed Pin From Net: NetName=LCD_D6 Pin=J5-4
+Removed Pin From Net: NetName=LCD_D5 Pin=J5-5
+Removed Pin From Net: NetName=LCD_D4 Pin=J5-6
+Removed Pin From Net: NetName=LCD_E Pin=J5-11
+Removed Pin From Net: NetName=LCD_RW Pin=J5-12
+Removed Pin From Net: NetName=LCD_RS Pin=J5-13
+Removed Pin From Net: NetName=+5V0 Pin=J5-15
+Removed Pin From Net: NetName=GND Pin=J5-16
+Removed Pin From Net: NetName=GND Pin=R15-3
+Removed Member From Class: ClassName=MetalDetector Member=J5
+Change Component Footprint: Designator=R15 Old Footprint=POT_7X5 New Footprint=R0805
+Change Component Comment : Designator=R15 Old Comment=POT10K New Comment=330R
+Change component parameters: Designator = "R15" ("R15"); Footprint = "POT_7X5"; UniqueID = "\CVNHAGCT" ("\CVNHAGCT")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "330R"; VariantName = "[No Variations]"
+Added Component: Designator=R2(POT_7X5)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DIST#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "POT10K"; VariantName = "[No Variations]"
+Added Component: Designator=U5(LCDCHAR_16X2_BLU)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DIST#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = "Newhaven"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "NHD-0216K3Z-NSW-BBW-V3"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = "2 lines x 16 characters"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = "Blue back, White, 5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "LCD_16X2"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+5V0 Pin=R2-1
+Added Pin To Net: NetName=GND Pin=R2-3
+Added Pin To Net: NetName=GND Pin=U5-1
+Added Pin To Net: NetName=+5V0 Pin=U5-2
+Added Pin To Net: NetName=LCD_RS Pin=U5-4
+Added Pin To Net: NetName=LCD_RW Pin=U5-5
+Added Pin To Net: NetName=LCD_E Pin=U5-6
+Added Pin To Net: NetName=LCD_D4 Pin=U5-11
+Added Pin To Net: NetName=LCD_D5 Pin=U5-12
+Added Pin To Net: NetName=LCD_D6 Pin=U5-13
+Added Pin To Net: NetName=LCD_D7 Pin=U5-14
+Added Pin To Net: NetName=GND Pin=U5-16
+Added Pin To Net: NetName=NetR2_2 Pin=R2-2
+Added Pin To Net: NetName=NetR2_2 Pin=U5-3
+Added Net: Name=NetR2_2
+Added Pin To Net: NetName=NetR15_2 Pin=R15-2
+Added Pin To Net: NetName=NetR15_2 Pin=U5-15
+Added Net: Name=NetR15_2
+Added Member To Class: ClassName=MetalDetector Member=Component R2 POT10K
+Added Member To Class: ClassName=MetalDetector Member=Component U5 LCD_16X2

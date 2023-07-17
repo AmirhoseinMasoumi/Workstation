@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=+5V0 Pin=R6-1
+Removed Pin From Net: NetName=NetC16_1 Pin=R6-2
+Removed Member From Class: ClassName=SmartKey Member=R6
+Added Component: Designator=R?(R1W_AX06)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = "KOA SPEER"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "RK73H1ETTP4701F"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = "0.063W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "1K/1W"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC16_1 Pin=R?-1
+Added Pin To Net: NetName=+5V0 Pin=R?-2
+Added Member To Class: ClassName=SmartKey Member=Component R? 1K/1W

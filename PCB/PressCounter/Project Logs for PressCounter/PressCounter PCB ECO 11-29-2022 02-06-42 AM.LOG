@@ -1,0 +1,30 @@
+Removed Pin From Net: NetName=-Vin Pin=JP1-1
+Removed Pin From Net: NetName=GND Pin=JP1-2
+Removed Pin From Net: NetName=+Vin Pin=JP2-1
+Removed Pin From Net: NetName=GND Pin=JP2-2
+Removed Member From Class: ClassName=PressCounter Member=JP1
+Removed Member From Class: ClassName=PressCounter Member=JP2
+Added Component: Designator=D3(D_SOD323)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = "Diodes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "1N4148WS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = "200~300mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = "75V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = "0.2$"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "1N4148"; VariantName = "[No Variations]"
+Added Component: Designator=D7(D_SOD323)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = "Diodes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "1N4148WS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = "200~300mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = "75V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = "0.2$"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "1N4148"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=D3-1
+Added Pin To Net: NetName=-Vin Pin=D3-2
+Added Pin To Net: NetName=GND Pin=D7-1
+Added Pin To Net: NetName=+Vin Pin=D7-2
+Added Member To Class: ClassName=PressCounter Member=Component D3 1N4148
+Added Member To Class: ClassName=PressCounter Member=Component D7 1N4148

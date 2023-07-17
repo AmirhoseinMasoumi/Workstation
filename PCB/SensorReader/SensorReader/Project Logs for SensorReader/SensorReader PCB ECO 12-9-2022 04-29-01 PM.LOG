@@ -1,0 +1,19 @@
+Change Component Footprint: Designator=C_ETH_POWER3 Old Footprint=C_EL_8 New Footprint=C_EL_5
+Add Component: Footprint Not Found Elko C package
+Add Component: Footprint Not Found Elko C package
+Add Component: Footprint Not Found Elko C package
+Add Component: Footprint Not Found Elko C package
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Add Pin To Net: Unknown Pin: Pin C5-1
+Add Pin To Net: Unknown Pin: Pin C5-2
+Add Pin To Net: Unknown Pin: Pin C6-1
+Add Pin To Net: Unknown Pin: Pin C6-2
+Add Pin To Net: Unknown Pin: Pin RJ1-13
+Add Pin To Net: Unknown Pin: Pin RJ1-14
+Add Class Member: Failed to add class member : Component C1 10uF
+Add Class Member: Failed to add class member : Component C4 10uF
+Add Class Member: Failed to add class member : Component C5 10uF
+Add Class Member: Failed to add class member : Component C6 10uF

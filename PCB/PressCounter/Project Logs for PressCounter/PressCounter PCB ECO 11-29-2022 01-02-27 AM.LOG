@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=+Vin Pin=D1-1
+Removed Pin From Net: NetName=+Vin Pin=J1-1
+Added Component: Designator=JP1(JP_40X50)
+Add component (AddParameter): Name = "MANF"; Value = "MANF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "MANF_P#"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "JMPSOLDER"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+Vin Pin=JP1-2
+Change Net Name : Old Net Name=+Vin New Net Name=GND
+Added Pin To Net: NetName=+Vin Pin=D1-1
+Added Pin To Net: NetName=+Vin Pin=J1-1
+Added Pin To Net: NetName=+Vin Pin=JP1-1
+Added Net: Name=+Vin
+Added Member To Class: ClassName=PressCounter Member=Component JP1 JMPSOLDER

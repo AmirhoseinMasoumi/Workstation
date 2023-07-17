@@ -1,0 +1,18 @@
+Removed Pin From Net: NetName=+Vin Pin=J4-1
+Added Component: Designator=D3(D_SOD80)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = "Diodes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "1N4148WS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = "200~300mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = "75V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = "0.2$"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "1N4148"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+Vin Pin=D3-2
+Added Pin To Net: NetName=ETH_GND Pin=U7-4
+Added Pin To Net: NetName=VDDIO Pin=U7-8
+Change Net Name : Old Net Name=+Vin New Net Name=NetC21_1
+Added Pin To Net: NetName=+Vin Pin=D3-1
+Added Pin To Net: NetName=+Vin Pin=J4-1
+Added Net: Name=+Vin
+Added Member To Class: ClassName=SensorReader Member=Component D3 1N4148

@@ -1,0 +1,336 @@
+Removed Pin From Net: NetName=VDDIO Pin=C1-1
+Removed Pin From Net: NetName=ETH_GND Pin=C1-2
+Removed Pin From Net: NetName=+5V0_O Pin=J2-1
+Removed Pin From Net: NetName=ETH_GND Pin=J2-2
+Removed Pin From Net: NetName=+Vin Pin=J3-10
+Removed Pin From Net: NetName=+Vin Pin=J4-10
+Removed Pin From Net: NetName=ETH_GND Pin=R1-2
+Removed Pin From Net: NetName=VDDIO Pin=R3-1
+Removed Pin From Net: NetName=VDDIO Pin=R4-1
+Removed Pin From Net: NetName=VDDIO Pin=R6-1
+Removed Pin From Net: NetName=VDDIO Pin=R8-1
+Removed Pin From Net: NetName=VDDIO Pin=R10-1
+Removed Pin From Net: NetName=+Vin Pin=R13-1
+Removed Pin From Net: NetName=+Vin Pin=R15-1
+Removed Pin From Net: NetName=+Vin Pin=R18-1
+Removed Pin From Net: NetName=+Vin Pin=R20-1
+Removed Pin From Net: NetName=+Vin Pin=R24-1
+Removed Pin From Net: NetName=+Vin Pin=R26-1
+Removed Pin From Net: NetName=+Vin Pin=R28-1
+Removed Pin From Net: NetName=+Vin Pin=R30-1
+Removed Pin From Net: NetName=+Vin Pin=R44-1
+Removed Pin From Net: NetName=+Vin Pin=R46-1
+Removed Pin From Net: NetName=+Vin Pin=R52-1
+Removed Pin From Net: NetName=+Vin Pin=R54-1
+Removed Pin From Net: NetName=+Vin Pin=R56-1
+Removed Pin From Net: NetName=+Vin Pin=R58-1
+Removed Pin From Net: NetName=+Vin Pin=R60-1
+Removed Pin From Net: NetName=+Vin Pin=R62-1
+Removed Pin From Net: NetName=ETH_GND Pin=U2-5
+Removed Pin From Net: NetName=VDDIO Pin=U2-8
+Removed Pin From Net: NetName=ETH_GND Pin=U4-3
+Removed Pin From Net: NetName=NetJ1_5 Pin=U7-2
+Removed Pin From Net: NetName=NetJ1_4 Pin=U7-3
+Removed Pin From Net: NetName=NetJ1_3 Pin=U7-6
+Removed Pin From Net: NetName=NetJ1_2 Pin=U7-7
+Removed Member From Class: ClassName=TimerHs Member=C1
+Removed Member From Class: ClassName=TimerHs Member=J9
+Removed Member From Class: ClassName=TimerHs Member=R1
+Removed Member From Class: ClassName=TimerHs Member=R2
+Removed Member From Class: ClassName=TimerHs Member=R3
+Removed Member From Class: ClassName=TimerHs Member=U2
+Removed Member From Class: ClassName=TimerHs Member=U4
+Change Component Footprint: Designator=J3 Old Footprint=GMSTB762_10 New Footprint=MSTB_10
+Change Component Footprint: Designator=J4 Old Footprint=GMSTB762_10 New Footprint=MSTB_10
+Change Component Footprint: Designator=J2 Old Footprint=MSTB_2 New Footprint=MSTB_4
+Change Component Comment : Designator=R45 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R57 Old Comment=1K New Comment=68R
+Change Component Comment : Designator=R4 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R6 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R8 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R10 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R12 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R14 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R16 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R19 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R21 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R25 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R27 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R29 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R43 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R51 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R53 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R55 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R59 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=R61 Old Comment=330R New Comment=68R
+Change Component Comment : Designator=J3 Old Comment=CONN_GMSTB10 New Comment=CONN_TB10
+Change Component Comment : Designator=J4 Old Comment=CONN_GMSTB10 New Comment=CONN_TB10
+Change Component Comment : Designator=J2 Old Comment=CONN_TB2 New Comment=CONN_TB4
+Change Component Designator: OldDesignator=D? NewDesignator=D1
+Change component parameters: Designator = "J2" ("J2"); Footprint = "MSTB_2"; UniqueID = "\VZDCMEAB" ("\VZDCMEAB")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "12A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "320V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "CONN_TB4"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J3" ("J3"); Footprint = "GMSTB762_10"; UniqueID = "\IIFOLMML" ("\IIFOLMML")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "12A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "320V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "CONN_TB10"; VariantName = "[No Variations]"
+Change component parameters: Designator = "J4" ("J4"); Footprint = "GMSTB762_10"; UniqueID = "\DYOARLPW" ("\DYOARLPW")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "12A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "320V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "CONN_TB10"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R4" ("R4"); Footprint = "R0603"; UniqueID = "\XCWFMWXH" ("\XCWFMWXH")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R6" ("R6"); Footprint = "R0603"; UniqueID = "\NKBQIAYM" ("\NKBQIAYM")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R8" ("R8"); Footprint = "R0603"; UniqueID = "\SLSNAXWX" ("\SLSNAXWX")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R10" ("R10"); Footprint = "R0603"; UniqueID = "\AWPGAKJZ" ("\AWPGAKJZ")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R12" ("R12"); Footprint = "R0603"; UniqueID = "\YBTCMELF" ("\YBTCMELF")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R14" ("R14"); Footprint = "R0603"; UniqueID = "\ESDFUMCY" ("\ESDFUMCY")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R16" ("R16"); Footprint = "R0603"; UniqueID = "\ORYAJAAJ" ("\ORYAJAAJ")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19" ("R19"); Footprint = "R0603"; UniqueID = "\TIQLZLMG" ("\TIQLZLMG")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R21" ("R21"); Footprint = "R0603"; UniqueID = "\FSCVQSTA" ("\FSCVQSTA")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R25" ("R25"); Footprint = "R0603"; UniqueID = "\CLGWGEKT" ("\CLGWGEKT")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R27" ("R27"); Footprint = "R0603"; UniqueID = "\KMVLZYNI" ("\KMVLZYNI")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R29" ("R29"); Footprint = "R0603"; UniqueID = "\DUMWLKFR" ("\DUMWLKFR")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R43" ("R43"); Footprint = "R0603"; UniqueID = "\CHYQYIHJ" ("\CHYQYIHJ")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R45" ("R45"); Footprint = "R0603"; UniqueID = "\NLDHEQNK" ("\NLDHEQNK")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R51" ("R51"); Footprint = "R0603"; UniqueID = "\XANSUUYU" ("\XANSUUYU")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R53" ("R53"); Footprint = "R0603"; UniqueID = "\LYHAUPEY" ("\LYHAUPEY")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R55" ("R55"); Footprint = "R0603"; UniqueID = "\FXURBWMF" ("\FXURBWMF")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R57" ("R57"); Footprint = "R0603"; UniqueID = "\COPWTEXX" ("\COPWTEXX")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R59" ("R59"); Footprint = "R0603"; UniqueID = "\XNZLRXEF" ("\XNZLRXEF")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R61" ("R61"); Footprint = "R0603"; UniqueID = "\HOVRJHQE" ("\HOVRJHQE")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "-"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "-W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "68R"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=+Vin Pin=J2-1
+Added Pin To Net: NetName=ETH_GND Pin=J2-4
+Added Pin To Net: NetName=+5V0_O Pin=J3-10
+Added Pin To Net: NetName=+5V0_O Pin=J4-10
+Added Pin To Net: NetName=NetJ1_5 Pin=R4-1
+Added Pin To Net: NetName=NetJ1_4 Pin=R6-1
+Added Pin To Net: NetName=NetJ1_3 Pin=R8-1
+Added Pin To Net: NetName=NetJ1_2 Pin=R10-1
+Added Pin To Net: NetName=VDDIO Pin=R13-1
+Added Pin To Net: NetName=VDDIO Pin=R15-1
+Added Pin To Net: NetName=VDDIO Pin=R18-1
+Added Pin To Net: NetName=VDDIO Pin=R20-1
+Added Pin To Net: NetName=VDDIO Pin=R24-1
+Added Pin To Net: NetName=VDDIO Pin=R26-1
+Added Pin To Net: NetName=VDDIO Pin=R28-1
+Added Pin To Net: NetName=VDDIO Pin=R30-1
+Added Pin To Net: NetName=VDDIO Pin=R44-1
+Added Pin To Net: NetName=VDDIO Pin=R46-1
+Added Pin To Net: NetName=VDDIO Pin=R52-1
+Added Pin To Net: NetName=VDDIO Pin=R54-1
+Added Pin To Net: NetName=VDDIO Pin=R56-1
+Added Pin To Net: NetName=VDDIO Pin=R58-1
+Added Pin To Net: NetName=VDDIO Pin=R60-1
+Added Pin To Net: NetName=VDDIO Pin=R62-1
+Add Pin To Net: Unknown Pin: Pin RJ1-13
+Add Pin To Net: Unknown Pin: Pin RJ1-14
+Added Pin To Net: NetName=ETH_GND Pin=U7-2
+Added Pin To Net: NetName=ETH_GND Pin=U7-3
+Added Pin To Net: NetName=ETH_GND Pin=U7-6
+Added Pin To Net: NetName=ETH_GND Pin=U7-7
+Change Net Name : Old Net Name=NetD?_1 New Net Name=NetD1_1
+Added Pin To Net: NetName=USART_RXD Pin=J2-2
+Added Pin To Net: NetName=USART_RXD Pin=U1-56
+Added Net: Name=USART_RXD
+Added Pin To Net: NetName=USART_TXD Pin=J2-3
+Added Pin To Net: NetName=USART_TXD Pin=U1-55
+Added Net: Name=USART_TXD

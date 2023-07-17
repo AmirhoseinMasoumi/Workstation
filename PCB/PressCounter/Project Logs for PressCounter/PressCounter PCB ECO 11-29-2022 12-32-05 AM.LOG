@@ -1,0 +1,33 @@
+Removed Pin From Net: NetName=NetD2_2 Pin=L1-1
+Removed Pin From Net: NetName=+3V3 Pin=L1-2
+Removed Pin From Net: NetName=NetD5_2 Pin=L2-1
+Removed Pin From Net: NetName=+3V3 Pin=L2-2
+Removed Member From Class: ClassName=PressCounter Member=L1
+Removed Member From Class: ClassName=PressCounter Member=L2
+Added Component: Designator=LP1(L_4_H2)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DIST#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = "WE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "784383560033, 744383560033"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = "9.6A (Irms), 12.4A Isat"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = "6mOhm, 2mm Height"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = "1.8$"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "68uH"; VariantName = "[No Variations]"
+Added Component: Designator=LP2(L_4_H2)
+Add component (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DESC"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DIST#"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF"; Value = "WE"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "784383560033, 744383560033"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM"; Value = "9.6A (Irms), 12.4A Isat"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PARAM2"; Value = "6mOhm, 2mm Height"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PRICE"; Value = "1.8$"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "68uH"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD2_2 Pin=LP1-1
+Added Pin To Net: NetName=+3V3 Pin=LP1-2
+Added Pin To Net: NetName=NetD5_2 Pin=LP2-1
+Added Pin To Net: NetName=+3V3 Pin=LP2-2
+Added Pin To Net: NetName=F_CS Pin=U1-30
+Added Member To Class: ClassName=PressCounter Member=Component LP1 68uH
+Added Member To Class: ClassName=PressCounter Member=Component LP2 68uH

@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=+Vin Pin=D1-1
+Added Pin To Net: NetName=+Vin Pin=D1-2
+Added Pin To Net: NetName=NetD1_1 Pin=D1-1
+Added Pin To Net: NetName=NetD1_1 Pin=J7-2
+Added Net: Name=NetD1_1
+Added Member To Class: ClassName=MetalDetector Member=Component R2 POT10K
+Added Member To Class: ClassName=MetalDetector Member=Component R15 1K

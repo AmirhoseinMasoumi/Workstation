@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=NetD2_1 Pin=K1-5
+Removed Pin From Net: NetName=NetD1_1 Pin=K2-5
+Added Pin To Net: NetName=NetD1_1 Pin=K1-5
+Added Pin To Net: NetName=NetD2_1 Pin=K2-5
+Added Member To Class: ClassName=SmartKey Member=Component K1 RELAY_SPDT

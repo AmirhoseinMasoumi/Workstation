@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=+3V3 Pin=C8-1
+Added Pin To Net: NetName=+VBAT Pin=C8-1
+Added Member To Class: ClassName=PressCounter Member=Component C15 470uF
+Added Member To Class: ClassName=PressCounter Member=Component U2 W25Q64

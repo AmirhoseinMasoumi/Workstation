@@ -1,0 +1,25 @@
+Added Component: Designator=Touch_1(TPSMD_S1)
+Add component (AddParameter): Name = "MANF"; Value = "MANF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "MANF_P#"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "VALUE"; VariantName = "[No Variations]"
+Added Component: Designator=Touch_2(TPSMD_S1)
+Add component (AddParameter): Name = "MANF"; Value = "MANF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "MANF_P#"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "VALUE"; VariantName = "[No Variations]"
+Added Component: Designator=Touch_3(TPSMD_S1)
+Add component (AddParameter): Name = "MANF"; Value = "MANF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MANF_P#"; Value = "MANF_P#"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "VALUE"; Value = "VALUE"; VariantName = "[No Variations]"
+Add Pin To Net: Unknown Pin: Pin U3-39
+Added Pin To Net: NetName=Touch_S1 Pin=Touch_1-1
+Added Pin To Net: NetName=Touch_S1 Pin=U3-26
+Added Net: Name=Touch_S1
+Added Pin To Net: NetName=Touch_S2 Pin=Touch_2-1
+Added Pin To Net: NetName=Touch_S2 Pin=U3-8
+Added Net: Name=Touch_S2
+Added Pin To Net: NetName=Touch_S3 Pin=Touch_3-1
+Added Pin To Net: NetName=Touch_S3 Pin=U3-9
+Added Net: Name=Touch_S3
+Added Member To Class: ClassName=SmartKey_V2 Member=Component Touch_1 TESTPOINT_SMD
+Added Member To Class: ClassName=SmartKey_V2 Member=Component Touch_2 TESTPOINT_SMD
+Added Member To Class: ClassName=SmartKey_V2 Member=Component Touch_3 TESTPOINT_SMD

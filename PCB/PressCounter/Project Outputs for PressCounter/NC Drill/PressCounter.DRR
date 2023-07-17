@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: PressCounter.PcbDoc   11/30/2022  12:33:52 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : PressCounter-RoundHoles.TXT
+ASCII SlotHoles File : PressCounter-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.5mm (20mil)                                             Round             291       PTH        1170.90mm (46.10inch)
+T2      0.6mm (24mil)                                             Round             2         PTH        1.20mm (0.05inch)
+T3      0.8mm (31mil)                                             Round             24        PTH        67.41mm (2.65inch)
+T4      1mm (39mil)                                               Round             18        PTH        95.69mm (3.77inch)
+T5      1.2mm (47mil)                                             Round             4         PTH        73.39mm (2.89inch)
+T6      3.2mm (126mil)                                            Round             4         PTH        175.20mm (6.90inch)
+T7      1.2mm (47mil)                                             Slot              1         NPTH       1.30mm (0.05inch)
+T8      1.5mm (59mil)                                             Slot              1         NPTH       1.10mm (0.04inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              345
+
+Total Processing Time (hh:mm:ss) : 00:00:00

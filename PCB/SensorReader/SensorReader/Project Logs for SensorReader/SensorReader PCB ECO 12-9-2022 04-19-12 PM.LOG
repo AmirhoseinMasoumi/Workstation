@@ -1,0 +1,45 @@
+Removed Member From Class: ClassName=SensorReader Member=C30
+Removed Member From Class: ClassName=SensorReader Member=C31
+Removed Member From Class: ClassName=SensorReader Member=U8
+Change Component Footprint: Designator=L_ETH_BEAD1 Old Footprint=L1812 New Footprint=L1206
+Add Component: Footprint Not Found Elko C package
+Add Component: Footprint Not Found Elko C package
+Add Component: Footprint Not Found Elko C package
+Add Component: Footprint Not Found Elko C package
+Add Pin To Net: Unknown Pin: Pin C1-1
+Add Pin To Net: Unknown Pin: Pin C1-2
+Add Pin To Net: Unknown Pin: Pin C4-1
+Add Pin To Net: Unknown Pin: Pin C4-2
+Add Pin To Net: Unknown Pin: Pin C5-1
+Add Pin To Net: Unknown Pin: Pin C5-2
+Add Pin To Net: Unknown Pin: Pin C6-1
+Add Pin To Net: Unknown Pin: Pin C6-2
+Add Pin To Net: Unknown Pin: Pin RJ1-13
+Add Pin To Net: Unknown Pin: Pin RJ1-14
+Add Class Member: Failed to add class member : Component C1 10uF
+Added Member To Class: ClassName=SensorReader Member=Component C2 100nF
+Added Member To Class: ClassName=SensorReader Member=Component C3 100nF
+Add Class Member: Failed to add class member : Component C4 10uF
+Add Class Member: Failed to add class member : Component C5 10uF
+Add Class Member: Failed to add class member : Component C6 10uF
+Added Member To Class: ClassName=SensorReader Member=Component C8 100nF
+Added Member To Class: ClassName=SensorReader Member=Component C10 100nF
+Added Member To Class: ClassName=SensorReader Member=Component C12 100nF
+Added Member To Class: ClassName=SensorReader Member=Component C14 100nF
+Added Member To Class: ClassName=SensorReader Member=Component C16 22uF
+Added Member To Class: ClassName=SensorReader Member=Component C17 100nF
+Added Member To Class: ClassName=SensorReader Member=Component C18 100nF
+Added Member To Class: ClassName=SensorReader Member=Component C19 2.2uF
+Added Member To Class: ClassName=SensorReader Member=Component C20 2.2uF
+Added Member To Class: ClassName=SensorReader Member=Component C21 100nF
+Added Member To Class: ClassName=SensorReader Member=Component C23 470uF
+Added Member To Class: ClassName=SensorReader Member=Component C24 470uF
+Added Member To Class: ClassName=SensorReader Member=Component C25 100nF
+Added Member To Class: ClassName=SensorReader Member=Component J2 HDRF4
+Added Member To Class: ClassName=SensorReader Member=Component J3 HDRF4
+Added Member To Class: ClassName=SensorReader Member=Component J4 CONN_TB2
+Added Member To Class: ClassName=SensorReader Member=Component U2 MAX232
+Added Member To Class: ClassName=SensorReader Member=Component U4 W25Q64
+Added Member To Class: ClassName=SensorReader Member=Component U6 AMS1117
+Added Member To Class: ClassName=Sensors Member=Component U7 LM358
+Added Member To Class: ClassName=Sensors Member=Component U9 LM358

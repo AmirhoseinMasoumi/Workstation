@@ -1,0 +1,15 @@
+"F:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armPROC.dll" 
+
+"F:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armSTLINK.dll" 
+
+"F:\Users\GitHub_Backup\WorkProjects\STM32\SensorReader_V3\EWARM\code_rev1\Exe\code_rev1.out" 
+
+--plugin="F:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armbat.dll" 
+
+--device_macro="F:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/debugger/ST/STM32F4xx.dmac" 
+
+--flash_loader="F:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/flashloader/ST/FlashSTM32F4xxx.board" 
+
+
+
+

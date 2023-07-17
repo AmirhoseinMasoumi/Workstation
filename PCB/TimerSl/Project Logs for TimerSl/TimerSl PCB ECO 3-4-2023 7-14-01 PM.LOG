@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=TM2_CH1 Pin=R7-2
+Removed Pin From Net: NetName=TM2_CH2 Pin=R12-2
+Removed Pin From Net: NetName=TM14_CH1 Pin=R36-2
+Removed Pin From Net: NetName=TM16_CH1 Pin=R44-2
+Removed Pin From Net: NetName=TM2_CH2 Pin=U7-14
+Removed Pin From Net: NetName=TM2_CH1 Pin=U7-15
+Removed Pin From Net: NetName=TM16_CH1 Pin=U8-14
+Removed Pin From Net: NetName=TM14_CH1 Pin=U8-15
+Added Pin To Net: NetName=TM14_CH1 Pin=R7-2
+Added Pin To Net: NetName=TM16_CH1 Pin=R12-2
+Added Pin To Net: NetName=TM2_CH1 Pin=R36-2
+Added Pin To Net: NetName=TM2_CH2 Pin=R44-2
+Added Pin To Net: NetName=TM16_CH1 Pin=U7-14
+Added Pin To Net: NetName=TM14_CH1 Pin=U7-15
+Added Pin To Net: NetName=TM2_CH2 Pin=U8-14
+Added Pin To Net: NetName=TM2_CH1 Pin=U8-15

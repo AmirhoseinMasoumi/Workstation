@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=ETH_GND Pin=D4-1
+Removed Pin From Net: NetName=ETH_GND Pin=D9-1
+Removed Member From Class: ClassName=TimerHs Member=D4
+Removed Member From Class: ClassName=TimerHs Member=D9
+Added Pin To Net: NetName=ETH_GND Pin=J7-1
+Add Pin To Net: Unknown Pin: Pin RJ1-13
+Add Pin To Net: Unknown Pin: Pin RJ1-14

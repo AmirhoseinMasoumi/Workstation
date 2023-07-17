@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=VCC Pin=U3-1
+Removed Pin From Net: NetName=NetR2_2 Pin=U3-2
+Removed Pin From Net: NetName=NetR2_1 Pin=U3-3
+Removed Pin From Net: NetName=NetR1_1 Pin=U3-4
+Removed Member From Class: ClassName=Suspension Member=U3
+Added Component: Designator=U?(SENSOR)
+Added Component: Designator=U?(SENSOR)
+Added Pin To Net: NetName=VCC Pin=U?-1
+Added Pin To Net: NetName=NetR2_2 Pin=U?-2
+Added Pin To Net: NetName=NetR2_1 Pin=U?-3
+Added Pin To Net: NetName=NetR1_1 Pin=U?-4
+Added Member To Class: ClassName=Suspension Member=Component U? SENSOR
+Added Member To Class: ClassName=Suspension Member=Component U? SENSOR

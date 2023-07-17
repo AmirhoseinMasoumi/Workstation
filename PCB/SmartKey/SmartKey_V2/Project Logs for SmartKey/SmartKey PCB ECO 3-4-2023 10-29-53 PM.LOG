@@ -1,0 +1,17 @@
+Removed Pin From Net: NetName=NetC17_2 Pin=R8-1
+Removed Pin From Net: NetName=Null Pin=R8-2
+Change Component Footprint: Designator=R8 Old Footprint=R0402 New Footprint=R1W_AX06
+Change Component Comment : Designator=R8 Old Comment=1M New Comment=1M/1W
+Change Component Designator: OldDesignator=R? NewDesignator=R6
+Change component parameters: Designator = "R8" ("R8"); Footprint = "R0402"; UniqueID = "\WVJZIEAC" ("\WVJZIEAC")
+Change component parameters (AddParameter): Name = "ASSEMBLY"; Value = "ASSEMBLY"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DESC"; Value = "DESCRIPTION"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DIST#"; Value = "MOUSER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF"; Value = "KOA SPEER"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MANF_P#"; Value = "RK73H1ETTP4701F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM"; Value = "0.063W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PARAM2"; Value = "1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PRICE"; Value = "100= 0.5$"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "1M/1W"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Null Pin=R8-1
+Added Pin To Net: NetName=NetC17_2 Pin=R8-2

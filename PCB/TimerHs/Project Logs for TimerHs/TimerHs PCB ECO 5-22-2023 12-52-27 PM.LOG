@@ -1,0 +1,10 @@
+Removed Pin From Net: NetName=+Vin Pin=R5-1
+Removed Pin From Net: NetName=+Vin Pin=R7-1
+Removed Pin From Net: NetName=+Vin Pin=R9-1
+Removed Pin From Net: NetName=+Vin Pin=R11-1
+Added Pin To Net: NetName=VDDIO Pin=R5-1
+Added Pin To Net: NetName=VDDIO Pin=R7-1
+Added Pin To Net: NetName=VDDIO Pin=R9-1
+Added Pin To Net: NetName=VDDIO Pin=R11-1
+Add Pin To Net: Unknown Pin: Pin RJ1-13
+Add Pin To Net: Unknown Pin: Pin RJ1-14

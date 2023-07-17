@@ -1,0 +1,4 @@
+Change Component Footprint: Designator=J1 Old Footprint=TBG_2 New Footprint=TBB_2
+Change Component Footprint: Designator=J2 Old Footprint=TBG_2 New Footprint=TBB_2
+Change Component Footprint: Designator=J3 Old Footprint=TBG_2 New Footprint=TBB_2
+Add Pin To Net: Unknown Pin: Pin U3-39

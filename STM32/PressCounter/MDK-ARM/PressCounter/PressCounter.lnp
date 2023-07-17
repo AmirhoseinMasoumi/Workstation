@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"presscounter\startup_stm32f103xb.o"
+"presscounter\main.o"
+"presscounter\stm32f1xx_it.o"
+"presscounter\stm32f1xx_hal_msp.o"
+"presscounter\tj_mpu6050.o"
+"presscounter\stm32f1xx_hal_gpio_ex.o"
+"presscounter\stm32f1xx_hal_i2c.o"
+"presscounter\stm32f1xx_hal.o"
+"presscounter\stm32f1xx_hal_rcc.o"
+"presscounter\stm32f1xx_hal_rcc_ex.o"
+"presscounter\stm32f1xx_hal_gpio.o"
+"presscounter\stm32f1xx_hal_dma.o"
+"presscounter\stm32f1xx_hal_cortex.o"
+"presscounter\stm32f1xx_hal_pwr.o"
+"presscounter\stm32f1xx_hal_flash.o"
+"presscounter\stm32f1xx_hal_flash_ex.o"
+"presscounter\stm32f1xx_hal_exti.o"
+"presscounter\stm32f1xx_hal_tim.o"
+"presscounter\stm32f1xx_hal_tim_ex.o"
+"presscounter\stm32f1xx_hal_uart.o"
+"presscounter\system_stm32f1xx.o"
+--strict --scatter "PressCounter\PressCounter.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "PressCounter.map" -o PressCounter\PressCounter.axf

@@ -1,0 +1,41 @@
+F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\SineWave\BrowseInfo\Drivers\STM32F7xx_HAL_Driver\stm32f7xx_hal.pbi: \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\Drivers\STM32F7xx_HAL_Driver\Src\stm32f7xx_hal.c \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Core\Inc\stm32f7xx_hal_conf.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rcc.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_def.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f7xx.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\CMSIS\Device\ST\STM32F7xx\Include\stm32f746xx.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\CMSIS\Include\core_cm7.h \
+  F:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\stdint.h \
+  F:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\ycheck.h \
+  F:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\yvals.h \
+  F:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\DLib_Defaults.h \
+  F:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\DLib_Config_Full.h \
+  F:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\DLib_Product.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\CMSIS\Include\cmsis_version.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\CMSIS\Include\cmsis_iccarm.h \
+  F:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\aarch32\iccarm_builtin.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\CMSIS\Include\mpu_armv7.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\CMSIS\Device\ST\STM32F7xx\Include\system_stm32f7xx.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
+  F:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\stddef.h \
+  F:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.1\arm\inc\c\ysizet.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_rcc_ex.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_exti.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_gpio.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_gpio_ex.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dma.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dma_ex.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_cortex.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dac.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_dac_ex.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_flash.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_flash_ex.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_i2c.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_i2c_ex.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pwr.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_pwr_ex.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_tim.h \
+  F:\Users\GitHub_Backup\WorkProjects\STM32\SineWave\EWARM\..\Drivers\STM32F7xx_HAL_Driver\Inc\stm32f7xx_hal_tim_ex.h
