@@ -1,9 +1,0 @@
-Removed Pin From Net: NetName=TM1_CH1 Pin=R7-2
-Removed Pin From Net: NetName=TM2_CH4 Pin=R54-2
-Removed Pin From Net: NetName=TM1_CH1 Pin=U7-15
-Removed Pin From Net: NetName=TM2_CH4 Pin=U9-10
-Added Pin To Net: NetName=TM2_CH4 Pin=R7-2
-Added Pin To Net: NetName=TM1_CH1 Pin=R54-2
-Added Pin To Net: NetName=TM2_CH4 Pin=U7-15
-Added Pin To Net: NetName=TM1_CH1 Pin=U9-10
-Added Member To Class: ClassName=TimerSl Member=Component C25 470uF

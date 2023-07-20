@@ -1,0 +1,15 @@
+"D:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armPROC.dll" 
+
+"D:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armSTLINK.dll" 
+
+"D:\Github_Workstation\Workstation\STM32\MoistureDetection\UDP_Server_final-16sensors\EWARM\code_rev1\Exe\code_rev1.out" 
+
+--plugin="D:\Program Files\IAR Systems\Embedded Workbench 9.1\arm\bin\armbat.dll" 
+
+--device_macro="D:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/debugger/ST/STM32F4xx.dmac" 
+
+--flash_loader="D:\Program Files\IAR Systems\Embedded Workbench 9.1\arm/config/flashloader/ST/FlashSTM32F4xxx.board" 
+
+
+
+
