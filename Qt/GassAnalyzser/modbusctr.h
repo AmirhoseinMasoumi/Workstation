@@ -10,6 +10,7 @@
 #include <QProcess>
 #include <QSqlDatabase>
 #include <QSqlQuery>
+#include <QtGlobal>
 
 class ModbusCTR : public QObject
 {

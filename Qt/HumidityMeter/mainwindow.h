@@ -64,6 +64,7 @@ private:
     QList<int> calibrateMoistureValues(const QList<int>& data_h, const QList<int>& data_L, const QList<int>& vals);
 
     QColor getColor(int val, double min1, double max1);
+    QColor getColorR(int val, double min1, double max1);
 
     bool connectionStatus = false;
     QList<int> data_H;
@@ -80,6 +81,7 @@ private:
 
     void smoothColumnsAroundLowest(QVector<QVector<int>>& matrix);
     void clearCheck(QList<int>& matrix);
+    void blueCheck(QList<int>& matrix);
 
 private slots:
     void on_coefficient_Custom_toggled(bool checked);

@@ -45,9 +45,9 @@ void MainWindow::initialImages()
         }
     }
     createRectangleGrid(ui->Right_Image, Right_colorMatrix);
-    createTemperatureRect(ui->Right_Image, 350, 80);
+    createTemperatureRect(ui->Right_Image, 750, 80);
     createRectangleGrid(ui->left_Image, Left_colorMatrix);
-    createTemperatureRect(ui->left_Image, 350, 80);
+    createTemperatureRect(ui->left_Image, 750, 80);
 }
 
 void MainWindow::readValues(QList<int> vals)
@@ -72,9 +72,9 @@ void MainWindow::readValues(QList<int> vals)
     }
 
 
-    for (int i = 400; i < newVals.size(); ++i) {
-        newVals[i] *= 1.05;
-    }
+//    for (int i = 400; i < newVals.size(); ++i) {
+//        newVals[i] *= 1.05;
+//    }
 
     for(int i = 0; i < newVals.size(); i++){
         if(newVals.at(i) < data_L.at(i)){
@@ -145,140 +145,53 @@ void MainWindow::readValues(QList<int> vals)
     for (int i = 783; i < 800; ++i) {
         Moisture[i] = Moisture[i-16];
     }
-    /////
-
-//    int bitmap[ROWS][COLS];
-//    cnt = 0;
-//    for (int row = 0; row < ROWS; ++row) {
-//        for (int col = 0; col < COLS; ++col) {
-//            bitmap[row][col] = Moisture.at(cnt++);
-//        }
-//    }
-
-//    // Smooth out the bitmap
-//    smoothBitmap(bitmap, ROWS, COLS);
-
-//    // Print the smoothed bitmap
-//    cnt = 0;
-//    for (int row = 0; row < ROWS; ++row) {
-//        for (int col = 0; col < COLS; ++col) {
-//            qDebug() << bitmap[row][col];
-//            Moisture[cnt++] = bitmap[row][col];
-//        }
-//        qDebug() << "";
-//    }
-
-//    cnt = 400;
-//    for (int row = 0; row < ROWS; ++row) {
-//        for (int col = 0; col < COLS; ++col) {
-//            bitmap[row][col] = Moisture.at(cnt++);
-//        }
-//    }
-
-//    // Smooth out the bitmap
-//    smoothBitmap(bitmap, ROWS, COLS);
-
-//    // Print the smoothed bitmap
-//    cnt = 400;
-//    for (int row = 0; row < ROWS; ++row) {
-//        for (int col = 0; col < COLS; ++col) {
-//            qDebug() << bitmap[row][col];
-//            Moisture[cnt++] = bitmap[row][col];
-//        }
-//        qDebug() << "";
-//    }
-
-    // Create the matrix with 25 rows and 16 columns
-    QVector<QVector<int>> matrix(25, QVector<int>(16));
-
-    cnt = 0;
-    // Fill the matrix with random values (you can replace this with your input array)
-    for (int row = 0; row < matrix.size(); row++)
-    {
-        for (int col = 0; col < matrix[row].size(); col++)
-        {
-            matrix[row][col] = Moisture.at(cnt++); // Random value between 0 and 99
-        }
-    }
-
-    smoothColumnsAroundLowest(matrix);
-    cnt = 0;
-    for (int row = 0; row < ROWS; ++row) {
-        for (int col = 0; col < COLS; ++col) {
-//            qDebug() << matrix[row][col];
-            Moisture[cnt++] = matrix[row][col];
-        }
-//        qDebug() << "";
-    }
-
-    cnt = 400;
-    // Fill the matrix with random values (you can replace this with your input array)
-    for (int row = 0; row < matrix.size(); row++)
-    {
-        for (int col = 0; col < matrix[row].size(); col++)
-        {
-            matrix[row][col] = Moisture.at(cnt++); // Random value between 0 and 99
-        }
-    }
-
-    smoothColumnsAroundLowest(matrix);
-    cnt = 400;
-    for (int row = 0; row < ROWS; ++row) {
-        for (int col = 0; col < COLS; ++col) {
-//            qDebug() << matrix[row][col];
-            Moisture[cnt++] = matrix[row][col];
-        }
-//        qDebug() << "";
-    }
 
     //------------clear check
-    clearCheck(Moisture);
+//    clearCheck(Moisture);
+//    blueCheck(Moisture);
     /////////////////////////////////////////////////////////////////////////////////////
 
-//    qDebug() << Moisture;
-//    qDebug() << "--------------";
+    qDebug() << Moisture;
+    qDebug() << "--------------";
 
     int counter_r = 0;
     int counter_l = 400;
     if(calibration == true){
         for (int i = 0; i < ROWS; ++i) {
-//            for (int j = 0; j < COLS; ++j) {
-//                Right_colorMatrix[i][j] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
-//                Left_colorMatrix[i][j] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box
-//            }
-            Right_colorMatrix[i][8] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
-            Right_colorMatrix[i][9] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
-            Right_colorMatrix[i][10] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
-            Right_colorMatrix[i][11] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
+            Right_colorMatrix[i][15] = getColor(100, 0, 100);counter_r++; // First box
+            Right_colorMatrix[i][14] = getColor(100, 0, 100);counter_r++; // First box
+            Right_colorMatrix[i][13] = getColor(Moisture[counter_r-1], 0, 100);counter_r++; // First box
             Right_colorMatrix[i][12] = getColor(Moisture[counter_r-1], 0, 100);counter_r++; // First box
-            Right_colorMatrix[i][13] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
-            Right_colorMatrix[i][14] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
-            Right_colorMatrix[i][15] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box  // ofset +20
-            Right_colorMatrix[i][7] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
-            Right_colorMatrix[i][6] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
-            Right_colorMatrix[i][5] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
-            Right_colorMatrix[i][4] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box // ofset +10
-            Right_colorMatrix[i][3] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
+            Right_colorMatrix[i][11] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
+            Right_colorMatrix[i][10] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
+            Right_colorMatrix[i][9] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
+            Right_colorMatrix[i][8] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
+            Right_colorMatrix[i][7] = getColor(Moisture[counter_r]-10, 0, 100);counter_r++; // First box
+            Right_colorMatrix[i][6] = getColor(Moisture[counter_r]-10, 0, 100);counter_r++; // First box
+            Right_colorMatrix[i][5] = getColor(Moisture[counter_r]-10, 0, 100);counter_r++; // First box
+            Right_colorMatrix[i][4] = getColor(Moisture[counter_r]-10, 0, 100);counter_r++; // First box
+            Right_colorMatrix[i][3] = getColor(Moisture[counter_r-1]-10, 0, 100);counter_r++; // First box
             Right_colorMatrix[i][2] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
-            Right_colorMatrix[i][1] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
+            Right_colorMatrix[i][1] = getColor(Moisture[counter_r+1], 0, 100);counter_r++; // First box
             Right_colorMatrix[i][0] = getColor(Moisture[counter_r], 0, 100);counter_r++; // First box
 
-            Left_colorMatrix[i][0] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box
-            Left_colorMatrix[i][1] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box
+
+            Left_colorMatrix[i][0] = getColor(100, 0, 100);counter_l++;  // First box
+            Left_colorMatrix[i][1] = getColor(100, 0, 100);counter_l++;  // First box
             Left_colorMatrix[i][2] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box
-            Left_colorMatrix[i][3] = getColor(Moisture[counter_l-2], 0, 100);counter_l++;  // First box///
-            Left_colorMatrix[i][4] = getColor(Moisture[counter_l-3], 0, 100);counter_l++;  // First box
-            Left_colorMatrix[i][5] = getColor(Moisture[counter_l-3], 0, 100);counter_l++;  // First box
-            Left_colorMatrix[i][6] = getColor(Moisture[counter_l+2], 0, 100);counter_l++;  // First box
-            Left_colorMatrix[i][7] = getColor(Moisture[counter_l+1], 0, 100);counter_l++;  // First box
-            Left_colorMatrix[i][8] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box // ofset +17
+            Left_colorMatrix[i][3] = getColor(Moisture[counter_l+1], 0, 100);counter_l++;  // First box
+            Left_colorMatrix[i][4] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box
+            Left_colorMatrix[i][5] = getColor(Moisture[counter_l-1], 0, 100);counter_l++;  // First box
+            Left_colorMatrix[i][6] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box
+            Left_colorMatrix[i][7] = getColor(Moisture[counter_l-1], 0, 100);counter_l++;  // First box
+            Left_colorMatrix[i][8] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box
             Left_colorMatrix[i][9] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box
             Left_colorMatrix[i][10] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box
             Left_colorMatrix[i][11] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box
-            Left_colorMatrix[i][12] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box///
+            Left_colorMatrix[i][12] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box
             Left_colorMatrix[i][13] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box
             Left_colorMatrix[i][14] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box
-            Left_colorMatrix[i][15] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box///
+            Left_colorMatrix[i][15] = getColor(Moisture[counter_l], 0, 100);counter_l++;  // First box
         }
 
         createRectangleGrid(ui->Right_Image, Clear_colorMatrix);
@@ -308,7 +221,7 @@ void MainWindow::createRectangleGrid(QGroupBox *groupBox, QColor colorMatrix[ROW
     for (int i = 0; i < ROWS; ++i) {
         for (int j = 0; j < COLS; ++j) {
             QWidget *rectWidget = new QWidget(gridWidget);
-            rectWidget->setFixedSize(15, 20);
+            rectWidget->setFixedSize(30, 30);
             rectWidget->setStyleSheet(QString("background-color: %1;").arg(colorMatrix[i][j].name()));
 
             QPalette palette = rectWidget->palette();
@@ -336,7 +249,7 @@ void MainWindow::createRectangleGrid(QGroupBox *groupBox, QColor colorMatrix[ROW
 void MainWindow::createTemperatureRect(QGroupBox *groupBox, int x, int y)
 {
     // Define the gradient colors
-    QLinearGradient gradient(QPoint(0, 0), QPoint(0, 550));
+    QLinearGradient gradient(QPoint(0, 0), QPoint(0, 800));
 //    gradient.setColorAt(1.0, Qt::blue);
 //    gradient.setColorAt(0.3, Qt::yellow);
 //    gradient.setColorAt(0.0, Qt::red);
@@ -354,7 +267,7 @@ void MainWindow::createTemperatureRect(QGroupBox *groupBox, int x, int y)
 
     // Create the temperature rectangle
     QLabel *rectLabel = new QLabel(groupBox);
-    rectLabel->setFixedSize(40, 550);
+    rectLabel->setFixedSize(80, 800);
     rectLabel->move(x, y);
 
     // Create the pixmap and painter
@@ -409,16 +322,82 @@ QColor MainWindow::getColor(int val, double min1, double max1)
 //    gradient.setColorAt(1.0, Qt::red);
 
     gradient.setColorAt(0.0, Qt::blue);
-    gradient.setColorAt(0.000009, lightblue);
-    gradient.setColorAt(0.001, lightblue);
-    gradient.setColorAt(0.15, Qt::green);
-    gradient.setColorAt(0.60, Qt::yellow);
+    gradient.setColorAt(0.00000005, lightblue);
+    gradient.setColorAt(0.15, lightblue);
+//    gradient.setColorAt(0.35, Qt::green);
+//    gradient.setColorAt(0.20, Qt::yellow);
+    gradient.setColorAt(0.50, Qt::yellow);
     gradient.setColorAt(1.0, Qt::red);
 
 //    gradient.setColorAt(1.0, Qt::blue);
 //    gradient.setColorAt(0.3, lightblue);
 //    gradient.setColorAt(0.2, Qt::yellow);
 //    gradient.setColorAt(0.0, Qt::red);
+
+
+    // Get the gradient stops
+    QGradientStops stops = gradient.stops();
+
+    // Map value to 0-1
+    double min2 = 0; // Minimum value of target range
+    double max2 = 1; // Maximum value of target range
+
+    double mappedValue = (val - min1) * (max2 - min2) / (max1 - min1) + min2;
+
+    // Interpolate between the gradient stops to get the color at the mapped value
+    QColor color;
+    for (int i = 1; i < stops.size(); i++) {
+        if (stops[i].first >= mappedValue) {
+            double t = (mappedValue - stops[i-1].first) / (stops[i].first - stops[i-1].first);
+            color.setRedF(stops[i-1].second.redF() * (1-t) + stops[i].second.redF() * t);
+            color.setGreenF(stops[i-1].second.greenF() * (1-t) + stops[i].second.greenF() * t);
+            color.setBlueF(stops[i-1].second.blueF() * (1-t) + stops[i].second.blueF() * t);
+            break;
+        }
+    }
+
+    // Create an image from the gradient
+    QImage image(1, 800, QImage::Format_ARGB32);
+    QPainter painter(&image);
+    painter.setBrush(gradient);
+    painter.drawRect(0, 0, 1, 800);
+
+    //qDebug() << "Interpolated color: " << color;
+    return color;
+}
+
+QColor MainWindow::getColorR(int val, double min1, double max1)
+{
+    // Create the gradient
+    QLinearGradient gradient(QPoint(0, 0), QPoint(0, 800));
+    QColor lightblue;
+    lightblue.setRed(52);
+    lightblue.setGreen(192);
+    lightblue.setBlue(235);
+
+    QColor lightblue2;
+    lightblue2.setRed(52);
+    lightblue2.setGreen(82);
+    lightblue2.setBlue(235);
+
+    QColor orange;
+    orange.setRed(240);
+    orange.setGreen(54);
+    orange.setBlue(7);
+
+//    gradient.setColorAt(0.0, Qt::blue);
+//    gradient.setColorAt(0.15, lightblue);
+//    gradient.setColorAt(0.25, lightblue);
+//    gradient.setColorAt(0.35, Qt::green);
+//    //    gradient.setColorAt(0.20, Qt::yellow);
+//    gradient.setColorAt(0.45, Qt::yellow);
+//    gradient.setColorAt(1.0, Qt::red);
+
+    gradient.setColorAt(0.0, Qt::blue);
+    gradient.setColorAt(0.5, lightblue);
+    gradient.setColorAt(0.6, Qt::yellow);
+    gradient.setColorAt(0.9, Qt::yellow);
+    gradient.setColorAt(1.0, Qt::red);
 
 
     // Get the gradient stops
@@ -463,7 +442,7 @@ void MainWindow::processPendingDatagrams()
         datagram.resize(socket->pendingDatagramSize());
         socket->readDatagram(datagram.data(),datagram.size(),&sender,&port);
 
-        qDebug() << "Received data:" << datagram.size() << " : " << datagram;
+//        qDebug() << "Received data:" << datagram.size() << " : " << datagram;
         if(calibrated == true){
             if(datagram.size() == packetSize){
                 if(datagram.count(header0) == packetSize || datagram.count(header1) == packetSize ||datagram.count(header2) == packetSize ||datagram.count(header3) == packetSize || datagram.count(header4) == packetSize){
@@ -487,8 +466,8 @@ void MainWindow::processPendingDatagrams()
                     data_list.removeLast();
                     if(data_list.size() == 800){
                         readValues(data_list);
-                        qDebug() << data_list;
-                        qDebug() << "----------------------";
+//                        qDebug() << data_list;
+//                        qDebug() << "----------------------";
                     }
                     else{
                         qDebug() << "Packet failed" << data_list.size();
@@ -529,13 +508,21 @@ bool MainWindow::checkCalFile()
                 QList<QString> data_str_list = QString(fileData).split('$');
 
                 for (QString str : data_str_list) {
-                    data_H.append(str.toInt()-100);
+                    data_H.append(str.toInt());
 //                    data_H.append(str.toInt() + 100);
 //                    data_L.append(str.toInt() - 400);
                 }
                 if(data_H.count() == 800){
                     calibrated = true;
                     qDebug() << "Data_H is correct";
+
+                    // test
+                    for (int i = 0; i < 400; ++i) {
+                        data_H[i] *= 1.05;
+                    }
+//                    for (int i = 400; i < 800; ++i) {
+//                        data_H[i] += 500;
+//                    }
                 }
                 else{
                     calibrated = false;
@@ -571,11 +558,19 @@ bool MainWindow::checkCalFile()
                 QList<QString> data_str_list = QString(fileData).split('$');
 
                 for (QString str : data_str_list) {
-                    data_L.append(str.toInt()-200);
+                    data_L.append(str.toInt()); // *0.9
                 }
                 if(data_L.count() == 800){
                     calibrated = true;
                     qDebug() << "Data_L is correct";
+
+                    // test
+                    for (int i = 0; i < 400; ++i) {
+                        data_L[i] *= 1.00; // *1.05
+                    }
+                    for (int i = 400; i < 800; ++i) {
+                        data_L[i] *= 1.00; // *1.01
+                    }
                 }
                 else{
                     calibrated = false;
@@ -761,7 +756,6 @@ QList<int> MainWindow::calibrateMoistureValues(const QList<int>& data_h, const Q
 {
     // List to store calibrated values
     QList<int> calibratedValues;
-    qDebug() << "Here0";
     // Iterate over each sensor
     for (int i = 0; i < 800; i++) {
         int val = vals[i];
@@ -774,10 +768,8 @@ QList<int> MainWindow::calibrateMoistureValues(const QList<int>& data_h, const Q
         double calibratedValue = static_cast<double>(val - nearest_h) / (nearest_L - nearest_h);
         calibratedValues.append(calibratedValue);
 
-        qDebug() << "Here1" << i << calibratedValue;
     }
 
-    qDebug() << "Here2";
 
     return calibratedValues;
 }
@@ -812,13 +804,13 @@ void MainWindow::smoothColumnsAroundLowest(QVector<QVector<int>>& matrix)
                 }
                 else{
                     int randomOffset = qrand() % 5 - 2; // Random offset between -2 and 2
-                    int smoothedValue = lowestValue + randomOffset;
-                    if(smoothedValue >= 100)
+                    int smoothedVal = lowestValue + randomOffset;
+                    if(smoothedVal >= 100)
                         matrix[row][col] = 100;
-                    else if(smoothedValue <= 0)
+                    else if(smoothedVal <= 0)
                         matrix[row][col] = 0;
                     else
-                        matrix[row][col] = smoothedValue;
+                        matrix[row][col] = smoothedVal;
 //                    matrix[row][col] = lowestValue;
                 }
             }
@@ -863,5 +855,106 @@ void MainWindow::clearCheck(QList<int>& matrix)
         }
     }
 }
+
+void MainWindow::blueCheck(QList<int>& matrix)
+{
+    int mat1[ROWS][COLS];
+    int mat2[ROWS][COLS];
+    int zeroCount1[16];
+    int zeroCount2[16];
+    int cnt1 = 0;
+    int cnt2 = 400;
+
+    for (int i = 0; i < 16; ++i) {
+        zeroCount1[i] = 0;
+        zeroCount2[i] = 0;
+    }
+
+    for (int i = 0; i < ROWS; ++i) {
+        for (int j = 0; j < COLS; ++j) {
+            mat1[i][j] = matrix.at(cnt1++);
+        }
+    }
+    for (int i = 0; i < ROWS; ++i) {
+        for (int j = 0; j < COLS; ++j) {
+            mat2[i][j] = matrix.at(cnt2++);
+        }
+    }
+
+    // Count zeros in each column
+    for (int col = 0; col < COLS; col++)
+    {
+        for (int row = 0; row < ROWS; row++)
+        {
+            if (mat1[row][col] == 0.0)
+                zeroCount1[col]++;
+            if (mat2[row][col] == 0.0)
+                zeroCount2[col]++;
+        }
+    }
+
+    // Display the results
+    for (int col = 0; col < COLS; col++)
+    {
+        if(zeroCount1[col] <= 5 ){
+            for (int col = 0; col < COLS; col++)
+            {
+                for (int row = 0; row < ROWS; row++)
+                {
+                    if (mat1[row][col] == 0.0)
+                        mat1[row][col] = 5;
+                }
+            }
+        }
+        if(zeroCount2[col] <= 5 ){
+            for (int col = 0; col < COLS; col++)
+            {
+                for (int row = 0; row < ROWS; row++)
+                {
+                    if (mat2[row][col] == 0.0)
+                        mat2[row][col] = 5;
+                }
+            }
+        }
+
+        if(zeroCount1[col] <= 10 ){
+            for (int col = 0; col < COLS; col++)
+            {
+                for (int row = 0; row < ROWS; row++)
+                {
+                    if (mat1[row][col] == 0.0)
+                        mat1[row][col] = 1;
+                }
+            }
+        }
+        if(zeroCount2[col] <= 10 ){
+            for (int col = 0; col < COLS; col++)
+            {
+                for (int row = 0; row < ROWS; row++)
+                {
+                    if (mat2[row][col] == 0.0)
+                        mat2[row][col] = 1;
+                }
+            }
+        }
+
+        cnt1 = 0;
+        for (int i = 0; i < ROWS; ++i) {
+            for (int j = 0; j < COLS; ++j) {
+                matrix[cnt1++] = mat1[i][j];
+            }
+        }
+        cnt2 = 400;
+        for (int i = 0; i < ROWS; ++i) {
+            for (int j = 0; j < COLS; ++j) {
+                matrix[cnt2++] = mat2[i][j];
+            }
+        }
+
+        //        qDebug() << "Column1" << col << "has" << zeroCount1[col] << "zeros";
+        //        qDebug() << "Column2" << col << "has" << zeroCount2[col] << "zeros";
+    }
+}
+
 
 

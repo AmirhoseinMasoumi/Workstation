@@ -216,7 +216,7 @@ void LogData::logDataInFile(QString d1, QString d2, QString d3, QString d4)
 
     //    }
     //    file.close();
-    qDebug() << QDateTime::currentDateTime().toString("ddMMyyyy-hh_mm_ss") << "," << d1 << "," << d2  << "," << d3  << "," << d4  << Qt::endl;
+    qDebug() << QDateTime::currentDateTime().toString("ddMMyyyy-hh_mm_ss") << "," << d1 << "," << d2  << "," << d3  << "," << d4  << endl;
 }
 
 void LogData::loadData()

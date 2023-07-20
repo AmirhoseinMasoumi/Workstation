@@ -312,7 +312,7 @@ void SerialPort::readData()
             }
         }
         QTextStream stream(&file);
-        stream << QDateTime::currentDateTime().toString("ddMMyyyy-hh_mm_ss") << "," << QString::number(splitedData[0].toInt()) << "," << QString::number(splitedData[1].toInt())  << "," << QString::number(splitedData[2].toInt())  << "," << QString::number(splitedData[3].toInt())  << Qt::endl;
+        stream << QDateTime::currentDateTime().toString("ddMMyyyy-hh_mm_ss") << "," << QString::number(splitedData[0].toInt()) << "," << QString::number(splitedData[1].toInt())  << "," << QString::number(splitedData[2].toInt())  << "," << QString::number(splitedData[3].toInt())  << endl;
 
         setO2Val(QString::number(splitedData[0].toInt()));
         setCo2Val(QString::number(splitedData[1].toInt()));
