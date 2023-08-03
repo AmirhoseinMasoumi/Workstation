@@ -86,13 +86,13 @@ while True:
                             # Write the employ entry to the csv file
                             csv_writer.writerow([name, employ['Entry Date'],  employ['Entry Time'], employ['Leaving Time']]) 
                             lastName = name
-                            text = "Have a good day " + name
+                            text = "L_" + name
                             # cv2.putText(frame,text,(10,30),font,0.75,(0,255,255),2)
                             # Send UDP
                             ack_msg = text.encode()
                             sock.sendto(ack_msg, sender_addr)
                         else:
-                            text = "Welcome " + name
+                            text = "E_" + name
                             # cv2.putText(frame,text,(10,30),font,0.75,(0,255,255),2)
                             # Send UDP
                             ack_msg = text.encode()

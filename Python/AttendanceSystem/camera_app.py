@@ -1,6 +1,6 @@
 import sys
 import cv2
-from PyQt5.QtWidgets import QApplication, QMainWindow, QGraphicsView, QGraphicsScene, QGraphicsPixmapItem
+from PyQt5.QtWidgets import QApplication, QMainWindow, QGraphicsView, QGraphicsScene, QGraphicsPixmapItem, QLabel, QMessageBox
 from PyQt5.QtGui import QImage, QPixmap, QPainter
 from PyQt5.QtCore import Qt, QTimer
 import socket
@@ -17,6 +17,10 @@ sock.bind(sender_addr)
 
 # Set socket to non-blocking mode
 sock.setblocking(0)
+
+font = cv2.FONT_HERSHEY_SIMPLEX
+text = ""
+frame_counter = 0
 
 def encode_frame(frame):
     # Encode frame to jpg and convert to base64 string
@@ -44,7 +48,19 @@ class FaceDetectionApp(QMainWindow):
         self.timer.start(33)  # 30 FPS
 
     def detect_face(self):
+        global text, frame_counter
         ret, frame = self.camera.read()
+        
+        # creating label
+        self.label = QLabel(self)
+        # loading image
+        self.pixmap = QPixmap('icons/face/default.png')
+        # adding image to label
+        self.label.setPixmap(self.pixmap)
+        # Optional, resize label to image size
+        self.label.resize(self.pixmap.width(),
+                          self.pixmap.height())
+        
         if ret:
             # Encode and send UDP
             small_frame = cv2.resize(frame, (320, 240))
@@ -53,9 +69,18 @@ class FaceDetectionApp(QMainWindow):
 
             # Check for incoming data on the socket
             ready_to_read, _, _ = select.select([sock], [], [], 0)  # Timeout is set to 0 (non-blocking)
+
             if ready_to_read:
                 ack, _ = sock.recvfrom(1024)
-                print("Received:", ack.decode())
+                self.stringdata = ack.decode('utf-8')
+                self.split_input = self.stringdata.split('_')
+                # print(self.split_input[0] + " - " + self.split_input[1])   
+                if self.split_input[0] == "E":
+                    text = "Welcome " + self.split_input[1];
+                    print(text)   
+                if self.split_input[0] == "L":
+                    text = "Have a good day " + self.split_input[1];
+                    print(text)   
 
             gray_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
             face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
@@ -63,6 +88,11 @@ class FaceDetectionApp(QMainWindow):
 
             for (x, y, w, h) in faces:
                 cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+                cv2.putText(frame,text,(x, y-20),font,0.50,(0,0,0),2)
+                frame_counter += 1
+                if frame_counter == 120:
+                    text = ""
+                    frame_counter = 0;
 
             rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             height, width, channel = rgb_frame.shape
