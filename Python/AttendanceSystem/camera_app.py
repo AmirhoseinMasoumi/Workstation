@@ -86,13 +86,25 @@ class FaceDetectionApp(QMainWindow):
             face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
             faces = face_cascade.detectMultiScale(gray_frame, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
 
+            nearest_face = None
+            nearest_distance = float('inf')  # Initialize with a large value
+
             for (x, y, w, h) in faces:
-                cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
-                cv2.putText(frame,text,(x, y-20),font,0.50,(0,0,0),2)
-                frame_counter += 1
-                if frame_counter == 120:
-                    text = ""
-                    frame_counter = 0;
+                face_center = (x + w // 2, y + h // 2)
+                distance = ((frame.shape[1] / 2 - face_center[0]) ** 2 + (frame.shape[0] / 2 - face_center[1]) ** 2) ** 0.5
+                
+                if distance < nearest_distance:
+                    nearest_distance = distance
+                    nearest_face = (x, y, w, h)
+
+            for (x, y, w, h) in faces:
+                if (x, y, w, h) == nearest_face:
+                    cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+                    cv2.putText(frame, text, (x, y-20), font, 0.50, (0, 0, 0), 2)
+                    frame_counter += 1
+                    if frame_counter == 120:
+                        text = ""
+                        frame_counter = 0
 
             rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
             height, width, channel = rgb_frame.shape
