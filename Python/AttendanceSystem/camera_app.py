@@ -6,7 +6,7 @@ from PyQt5.QtCore import Qt, QTimer
 import socket
 import numpy as np
 import base64
-import select  # Import the 'select' module
+import select  
 
 # Create socket
 sender_addr = ('127.0.0.1', 5000)
