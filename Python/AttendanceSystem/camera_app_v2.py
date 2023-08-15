@@ -1,6 +1,6 @@
 import sys
 import cv2
-from PyQt5.QtWidgets import QApplication, QMainWindow, QGraphicsView, QGraphicsScene, QGraphicsPixmapItem, QLabel, QMessageBox
+from PyQt5.QtWidgets import QApplication, QMainWindow, QGraphicsView, QGraphicsScene, QGraphicsPixmapItem, QLabel
 from PyQt5.QtGui import QImage, QPixmap, QPainter
 from PyQt5.QtCore import Qt, QTimer
 import socket
@@ -32,7 +32,8 @@ class FaceDetectionApp(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Face Detection")
-        self.setGeometry(100, 100, 600, 1024)
+        self.setGeometry(0, 0, 600, 1024)  # Set window size (portrait mode)
+        self.showFullScreen()  # Show the window in full-screen mode
 
         self.scene = QGraphicsScene(self)
         self.view = QGraphicsView(self.scene)
@@ -59,8 +60,7 @@ class FaceDetectionApp(QMainWindow):
         # adding image to label
         self.label.setPixmap(self.pixmap)
         # Optional, resize label to image size
-        self.label.resize(self.pixmap.width(),
-                          self.pixmap.height())
+        self.label.resize(self.pixmap.width(), self.pixmap.height())
         
         if ret:
             # Encode and send UDP
@@ -116,8 +116,8 @@ class FaceDetectionApp(QMainWindow):
             self.scene.clear()
             pixmap_item = QGraphicsPixmapItem(pixmap)
             self.scene.addItem(pixmap_item)
-            self.view.setSceneRect(pixmap_item.boundingRect())
-            self.view.fitInView(pixmap_item.boundingRect(), Qt.KeepAspectRatio)
+            self.scene.setSceneRect(pixmap_item.boundingRect())
+            self.view.fitInView(pixmap_item.boundingRect(), Qt.IgnoreAspectRatio)
 
     def closeEvent(self, event):
         self.camera.release()
@@ -125,5 +125,4 @@ class FaceDetectionApp(QMainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = FaceDetectionApp()
-    window.show()
     sys.exit(app.exec_())

@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
     # Paths to the two Python scripts
     script1_path = "attendance.py"
-    script2_path = "camera_app.py"
+    script2_path = "camera_app_v2.py"
 
     # Execute the two scripts using subprocess
     subprocess.Popen(["python", script1_path])
