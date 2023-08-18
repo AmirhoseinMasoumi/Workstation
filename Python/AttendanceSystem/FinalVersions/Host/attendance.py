@@ -28,7 +28,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 
 lastName = ''
 
-with open('train.pkl','rb') as f:
+with open('Host/train.pkl','rb') as f:
     Names = pickle.load(f)
     Encodings = pickle.load(f)
 
@@ -51,11 +51,15 @@ while True:
     allEncodings = face_recognition.face_encodings(frameRGB,facePositions)
    
     # Create the attendance file 
-    fileName = 'attendance.csv'
+    fileName = 'Host/attendance.csv'
+    newFile = False
+    if os.path.isfile(fileName) == False:
+            newFile = True
+
     with open(fileName, 'a', newline='') as attendance_file:
         csv_writer = csv.writer(attendance_file)
-        if os.path.isfile(fileName) == False:
-            csv_writer.writerow(['Name', 'Date', 'Entry Time', 'Leaving Time'])           
+        if newFile == True:
+            csv_writer.writerow(['Name', 'Date', 'Entry Time', 'Leaving Time']) 
 
         for (top,right,bottom,left),face_encoding in zip(facePositions,allEncodings):
             name = 'Unknown Person'
@@ -116,11 +120,4 @@ while True:
             right = right*4
             bottom = bottom*4
             left = left*4
-            # cv2.rectangle(frame,(left,top),(right,bottom),(255,0,0),2)
 
-#         cv2.imshow('Camera',frame)
-#         cv2.moveWindow('Camera',0,0)
-#         if cv2.waitKey(1) == ord('q'):
-#             break
-
-# cv2.destroyAllWindows()

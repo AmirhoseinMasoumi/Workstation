@@ -1,0 +1,77 @@
+/* style.qss */
+
+/* MainWindow */
+QMainWindow {
+    background-color: #F5F5F5;
+}
+
+/* AddPersonDialog */
+QDialog {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+
+/* QLabel */
+QLabel {
+    color: #333333;
+    font-size: 14px;
+}
+
+/* QLineEdit */
+QLineEdit {
+    padding: 4px;
+    border: 1px solid #CCCCCC;
+}
+
+/* QPushButton */
+QPushButton {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid #CCCCCC;
+    background-color: #F0F0F0;
+}
+
+QPushButton:hover {
+    background-color: #E0E0E0;
+}
+
+/* QTableWidget */
+QTableWidget {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    gridline-color: #DDDDDD;
+}
+
+/* QHeaderView */
+QHeaderView {
+    background-color: #F0F0F0;
+    border: none;
+    font-size: 14px;
+}
+
+/* QTableWidgetItem */
+QTableWidgetItem {
+    padding: 4px;
+    border: none;
+}
+
+/* QMessageBox */
+QMessageBox {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+}
+
+QMessageBox QLabel {
+    font-size: 14px;
+}
+
+QMessageBox QPushButton {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid #CCCCCC;
+    background-color: #F0F0F0;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: #E0E0E0;
+}
