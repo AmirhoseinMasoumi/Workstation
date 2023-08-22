@@ -45,7 +45,8 @@ def run_attendance_subprocess():
             cmd = ["python", "Host/attendance.py"]
             if restart_flag:
                 cmd.append("RESTART_SUBPROCESS")
-            subprocess.run(cmd, check=True)
+                subprocess.run(cmd, check=True)
+                restart_flag = False
         except subprocess.CalledProcessError:
             print("attendance.py subprocess crashed. Restarting...")
             restart_flag = False
@@ -204,12 +205,18 @@ class MainWindow(QMainWindow):
         button_layout.addWidget(self.button)
         button_layout.addWidget(self.train_button)
 
+        # Create the exit button
+        self.exit_button = QPushButton("Exit")
+        self.exit_button.setIcon(QIcon("Host/icons/exit.png"))  # Set the appropriate icon
+        self.exit_button.clicked.connect(self.close_application)
+
         # Create the layout and add widgets
         layout = QVBoxLayout()
+        layout.addWidget(self.exit_button, alignment=Qt.AlignTop | Qt.AlignRight)
         layout.addWidget(self.table)
         layout.addWidget(self.button)
         layout.addWidget(self.train_button)
-
+        
         # Create a central widget and set the layout
         central_widget = QWidget()
         central_widget.setLayout(layout)
@@ -217,6 +224,10 @@ class MainWindow(QMainWindow):
 
         # Populate the table with existing persons
         self.populate_table()
+        
+    def close_application(self):
+        # Close the application
+        self.close()
 
     def train_model(self):
         # Path to the folder containing the captured images
