@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/WeatherStatus_V1_0">
+    <file alias="qmldir">D:/Github_Workstation/Work/Qt/WeatherStatus/build-WeatherStatus_V1_0-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/WeatherStatus_V1_0/qmldir</file>
+  </qresource>
+</RCC>
+

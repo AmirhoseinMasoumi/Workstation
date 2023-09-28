@@ -1,0 +1,5 @@
+module WeatherStatus_V1_0
+typeinfo appWeatherStatus_V1_0.qmltypes
+prefer :/qt/qml/WeatherStatus_V1_0/
+Main 1.0 Main.qml
+

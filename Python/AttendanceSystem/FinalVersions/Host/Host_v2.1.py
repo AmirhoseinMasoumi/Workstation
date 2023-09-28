@@ -14,13 +14,13 @@ import subprocess
 import time
 
 # Paths to the two Python scripts
-script_path = "Host/attendance.py"
+script_path = "attendance.py"
 # Global flag for restarting subprocess
 restart_flag = False
 
 
 # Initialize the SQLite database
-conn = sqlite3.connect('Host/attendance.db')
+conn = sqlite3.connect('attendance.db')
 c = conn.cursor()
 
 # Create the table to store person information
@@ -42,7 +42,7 @@ def run_attendance_subprocess():
 
     while True:
         try:
-            cmd = ["python", "Host/attendance.py"]
+            cmd = ["python", "attendance.py"]
             if restart_flag:
                 cmd.append("RESTART_SUBPROCESS")
                 subprocess.run(cmd, check=True)
@@ -61,7 +61,7 @@ class AddPersonDialog(QDialog):
         super().__init__()
 
         self.setWindowTitle("Add New Person")
-        self.setWindowIcon(QIcon("Host/icons/add_person.png"))
+        self.setWindowIcon(QIcon("icons/add_person.png"))
         self.table = table
 
         # Create the input fields
@@ -73,7 +73,7 @@ class AddPersonDialog(QDialog):
 
         # Create the image capture button
         self.capture_button = QPushButton("Capture Image")
-        self.capture_button.setIcon(QIcon("Host/icons/camera.png"))
+        self.capture_button.setIcon(QIcon("icons/camera.png"))
         self.capture_button.clicked.connect(self.capture_image)
 
         # Create the image label
@@ -84,7 +84,7 @@ class AddPersonDialog(QDialog):
 
         # Create the save button
         self.save_button = QPushButton("Save")
-        self.save_button.setIcon(QIcon("Host/icons/save.png"))
+        self.save_button.setIcon(QIcon("icons/save.png"))
         self.save_button.clicked.connect(self.save_person)
 
         # Create the layout and add widgets
@@ -151,11 +151,11 @@ class AddPersonDialog(QDialog):
             conn.commit()
 
             # Create the images folder if it doesn't exist
-            if not os.path.exists('Host/images'):
-                os.makedirs('Host/images')
+            if not os.path.exists('images'):
+                os.makedirs('images')
 
             # Update the database with the photo path
-            photo_path = f'Host/images/person_{person_id}.jpg'
+            photo_path = f'images/person_{person_id}.jpg'
             c.execute('UPDATE persons SET photo_path = ? WHERE id = ?', (photo_path, person_id))
             conn.commit()
 
@@ -183,7 +183,7 @@ class MainWindow(QMainWindow):
         # Initialize the GUI
         self.setWindowTitle("Attendance System")
         self.setGeometry(100, 100, 800, 600)
-        self.setWindowIcon(QIcon("Host/icons/attendance.png"))
+        self.setWindowIcon(QIcon("icons/attendance.png"))
 
         # Create the table widget
         self.table = QTableWidget()
@@ -193,7 +193,7 @@ class MainWindow(QMainWindow):
 
         # Create the add person button
         self.button = QPushButton("Add Person")
-        self.button.setIcon(QIcon("Host/icons/add_person.png"))
+        self.button.setIcon(QIcon("icons/add_person.png"))
         self.button.clicked.connect(self.open_add_person_dialog)
 
         # Create the train button
@@ -207,7 +207,7 @@ class MainWindow(QMainWindow):
 
         # Create the exit button
         self.exit_button = QPushButton("Exit")
-        self.exit_button.setIcon(QIcon("Host/icons/exit.png"))  # Set the appropriate icon
+        self.exit_button.setIcon(QIcon("icons/exit.png"))  # Set the appropriate icon
         self.exit_button.clicked.connect(self.close_application)
 
         # Create the layout and add widgets
@@ -236,7 +236,7 @@ class MainWindow(QMainWindow):
         Encodings = []
         Names = []
 
-        image_dir = 'Host/images'
+        image_dir = 'images'
         for root,dirs,files in os.walk(image_dir):
             for file in files:
                 path = os.path.join(root,file)
@@ -255,7 +255,7 @@ class MainWindow(QMainWindow):
                 Encodings.append(encoding)
                 Names.append(name)
 
-        with open('Host/train.pkl','wb') as f:
+        with open('train.pkl','wb') as f:
             pickle.dump(Names,f)
             pickle.dump(Encodings,f)
             QMessageBox.information(None, "Training", "Model training completed!")
@@ -291,7 +291,7 @@ class MainWindow(QMainWindow):
 if __name__ == '__main__':
     # Create the application and window
     app = QApplication(sys.argv)
-    app.setStyleSheet(open("Host/style.qss").read())  # Apply custom stylesheet
+    app.setStyleSheet(open("style.qss").read())  # Apply custom stylesheet
 
     # Start the attendance subprocess in a separate thread
     attendance_thread = threading.Thread(target=run_attendance_subprocess)

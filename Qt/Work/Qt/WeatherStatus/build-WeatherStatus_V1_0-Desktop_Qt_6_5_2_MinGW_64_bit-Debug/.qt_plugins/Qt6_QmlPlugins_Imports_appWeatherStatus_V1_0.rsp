@@ -1,0 +1,14 @@
+-rootPath
+D:/Github_Workstation/Work/Qt/WeatherStatus/WeatherStatus_V1_0
+-cmake-output
+-output-file
+D:/Github_Workstation/Work/Qt/WeatherStatus/build-WeatherStatus_V1_0-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appWeatherStatus_V1_0.cmake
+-importPath
+D:/Github_Workstation/Work/Qt/WeatherStatus/build-WeatherStatus_V1_0-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/WeatherStatus_V1_0
+-importPath
+D:/Github_Workstation/Work/Qt/WeatherStatus/build-WeatherStatus_V1_0-Desktop_Qt_6_5_2_MinGW_64_bit-Debug
+-importPath
+D:/Qt/6.5.2/mingw_64/./qml
+-qrcFiles
+D:/Github_Workstation/Work/Qt/WeatherStatus/build-WeatherStatus_V1_0-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/.rcc/qmake_WeatherStatus_V1_0.qrc
+D:/Github_Workstation/Work/Qt/WeatherStatus/build-WeatherStatus_V1_0-Desktop_Qt_6_5_2_MinGW_64_bit-Debug/.rcc/appWeatherStatus_V1_0_raw_qml_0.qrc

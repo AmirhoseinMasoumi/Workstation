@@ -28,7 +28,7 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 
 lastName = ''
 
-with open('Host/train.pkl','rb') as f:
+with open('train.pkl','rb') as f:
     Names = pickle.load(f)
     Encodings = pickle.load(f)
 
@@ -51,7 +51,7 @@ while True:
     allEncodings = face_recognition.face_encodings(frameRGB,facePositions)
    
     # Create the attendance file 
-    fileName = 'Host/attendance.csv'
+    fileName = 'attendance.csv'
     newFile = False
     if os.path.isfile(fileName) == False:
             newFile = True
@@ -59,7 +59,7 @@ while True:
     with open(fileName, 'a', newline='') as attendance_file:
         csv_writer = csv.writer(attendance_file)
         if newFile == True:
-            csv_writer.writerow(['Name', 'Date', 'Entry Time', 'Leaving Time']) 
+            csv_writer.writerow(['Name', 'Date', 'Arrival Time', 'Departure Time']) 
 
         for (top,right,bottom,left),face_encoding in zip(facePositions,allEncodings):
             name = 'Unknown Person'
@@ -91,13 +91,13 @@ while True:
                             csv_writer.writerow([name, employ['Entry Date'],  employ['Entry Time'], employ['Leaving Time']]) 
                             lastName = name
                             text = "L_" + name
-                            # cv2.putText(frame,text,(10,30),font,0.75,(0,255,255),2)
+                            print(text)
                             # Send UDP
                             ack_msg = text.encode()
                             sock.sendto(ack_msg, sender_addr)
                         else:
                             text = "E_" + name
-                            # cv2.putText(frame,text,(10,30),font,0.75,(0,255,255),2)
+                            print(text)
                             # Send UDP
                             ack_msg = text.encode()
                             sock.sendto(ack_msg, sender_addr)
@@ -107,7 +107,6 @@ while True:
                             employ = employ_data[name]
                             employ['Entry Date'] = last_entry_date
                             employ['Entry Time'] = current_time
-                            print("here")
                 else:
                     # Add a new entry for the employ
                     employ_data[name] = {

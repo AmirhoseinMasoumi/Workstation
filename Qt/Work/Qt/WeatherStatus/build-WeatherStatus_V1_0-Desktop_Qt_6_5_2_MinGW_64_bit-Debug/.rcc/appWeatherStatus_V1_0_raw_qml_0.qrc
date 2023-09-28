@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="/qt/qml/WeatherStatus_V1_0/">
+    <file alias="Main.qml">D:/Github_Workstation/Work/Qt/WeatherStatus/WeatherStatus_V1_0/Main.qml</file>
+    <file alias="Resources/Fonts/msgothic.ttc">D:/Github_Workstation/Work/Qt/WeatherStatus/WeatherStatus_V1_0/Resources/Fonts/msgothic.ttc</file>
+    <file alias="Resources/Icons/drop.png">D:/Github_Workstation/Work/Qt/WeatherStatus/WeatherStatus_V1_0/Resources/Icons/drop.png</file>
+  </qresource>
+</RCC>
+

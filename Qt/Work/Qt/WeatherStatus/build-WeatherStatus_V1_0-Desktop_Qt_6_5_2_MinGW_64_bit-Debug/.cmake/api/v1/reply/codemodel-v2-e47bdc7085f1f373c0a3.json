@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c2d86b76d107843ea236.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "WeatherStatus_V1_0",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-59bc9a09ea28c10c5acc.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-df74f95da24e052e69dd.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-cdaeb48b947672138dcb.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-8f651bd7537caa9e9443.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeatherStatus_V1_0::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeatherStatus_V1_0-Debug-4d7024daceb84c80c6f8.json",
+					"name" : "appWeatherStatus_V1_0",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeatherStatus_V1_0_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeatherStatus_V1_0_autogen-Debug-b9c4f93414acaa3d5f22.json",
+					"name" : "appWeatherStatus_V1_0_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeatherStatus_V1_0_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeatherStatus_V1_0_autogen_timestamp_deps-Debug-8cdd3c4af2782b22d753.json",
+					"name" : "appWeatherStatus_V1_0_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeatherStatus_V1_0_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeatherStatus_V1_0_qmlimportscan-Debug-8484dee69fddeeab4ddf.json",
+					"name" : "appWeatherStatus_V1_0_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeatherStatus_V1_0_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeatherStatus_V1_0_qmllint-Debug-3ce1da4e9bf774a59bfb.json",
+					"name" : "appWeatherStatus_V1_0_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeatherStatus_V1_0_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeatherStatus_V1_0_qmllint_json-Debug-3cf984046b6a30aaa3b0.json",
+					"name" : "appWeatherStatus_V1_0_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeatherStatus_V1_0_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeatherStatus_V1_0_qmllint_module-Debug-dcdcf3481698e0a7028e.json",
+					"name" : "appWeatherStatus_V1_0_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeatherStatus_V1_0_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeatherStatus_V1_0_qmltyperegistration-Debug-6429ba1681ebe6c993b1.json",
+					"name" : "appWeatherStatus_V1_0_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appWeatherStatus_V1_0_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appWeatherStatus_V1_0_tooling-Debug-48209a349b0cc30b7b0f.json",
+					"name" : "appWeatherStatus_V1_0_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Github_Workstation/Work/Qt/WeatherStatus/build-WeatherStatus_V1_0-Desktop_Qt_6_5_2_MinGW_64_bit-Debug",
+		"source" : "D:/Github_Workstation/Work/Qt/WeatherStatus/WeatherStatus_V1_0"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
